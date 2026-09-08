@@ -1,0 +1,8 @@
+a = list(map(int, input("Enter numbers: ").split()))
+result = []
+
+for x in a:
+    if x not in result:
+        result.append(x)
+
+print("After removing duplicates:", result)
